@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="hint_msg">Digite o primeiro número</string>
+    <string name="hint_msg2">Digite o segundo número</string>
+    <string name="r_soma">Somar</string>
+    <string name="r_divide">Dividir</string>
+    <string name="r_multiplica">Multiplicar</string>
+    <string name="r_subtrair">Subtrair</string>
+    <string name="bt_calcula">Calcular</string>
+</resources>

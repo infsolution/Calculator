@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="infsolution.com.br.calculator.MainActivity">
+
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_msg"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_msg2"
+        android:inputType="number"
+        />
+<RadioGroup
+    android:id="@+id/operacoes"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RadioButton
+        android:id="@+id/soma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/r_soma"
+        />
+    <RadioButton
+        android:id="@+id/mult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/r_multiplica"
+        />
+    <RadioButton
+        android:id="@+id/div"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/r_divide"
+        />
+    <RadioButton
+        android:id="@+id/subt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/r_subtrair"
+        />
+</RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="calcular"
+        android:text="@string/bt_calcula"/>
+</LinearLayout>
